@@ -1,0 +1,50 @@
+// Menu bar
+"ethernet" = "Ethernet";
+"eth_is_connected" = "Verbunden";
+"eth_not_connected" = "Nicht verbunden";
+"eth_preferred" = "Verbindung wird bevorzugt";
+"eth_not_preferred" = "Verbindung wird nicht bevorzugt";
+"no_network_general" = "Netzwerk ist offline";
+"not_available" = "nicht verfügbar";
+"quit" = "Beenden";
+"informations" = "Informationen";
+"preferences" = "Einstellungen";
+"network_prefs" = "Netzwerkeinstellungen ...";
+"about" = "Über ...";
+"next" = "Weiter";
+
+// SettingsView
+"general" = "Allgemein";
+"appearance" = "Erscheinungsbild";
+"hotkeys" = "Tastaturkürzel";
+
+// GeneralView
+"startup" = "Startverhalten";
+"behavior" = "Verhalten";
+"menu_bar_symbol" = "Menüleistensymbol";
+"colors" = "Farben";
+"launch_on_start" = "Beim Anmelden öffnen";
+"only_icon" = "Zeige nur das Symbol in der Menüleiste";
+"hide_ip" = "IP im Menü verstecken";
+"colorize_status" = "Status im Menü farbig hinterlegen";
+
+// Descriptions
+"descr_ip_header" = "IPv4";
+"descr_ip" = "Die IPv4-Adresse des aktuell genutzten Ethernet-Interfaces. Der Name des Interfaces ist im Menü oben rechts grau hinterlegt.";
+"descr_preferred_header" = "Bevorzugte Verbindung";
+"descr_preferred" = "Zeigt an, ob die aktuelle Ethernet-Schnittstelle die bevorzugte Schnittstelle des Systems ist. Abhängig von den Verbindungen ist dies nicht immer der Fall.";
+"descr_standard_mode" = "Das Menü wird wie eine native Integration in macOS dargestellt. Beim Klick auf das Symbol werden zusätzliche Informationen angezeigt.";
+"descr_only_icon" = "Die Anzeige der IP-Adresse und der Bevorzugungsstatus wird ausgeblendet. Die Applikation wird als reines Symbol in der Menüleiste betrieben.";
+"descr_colorize_status" = "Hinterlegt den Menüeintrag grün wenn eine Netzwerkverbindung vorhanden ist und rot, wenn keine vorhanden ist.";
+
+// WelcomeView
+"welcome_header" = "Willkommen beim Wired Buddy!";
+"welcome_descr" = "Das fehlende Ethernet-Symbol in der macOS Menüleiste";
+"welcome_select_buddy" = "Wähle Deinen Buddy aus";
+"welcome_buddy_future" = "Keine Sorge, Du kannst deinen Buddy immer wechseln. In Zukunft kommen hier auch noch weitere hinzu...";
+"welcome_buddy_decision" = "Deine Auswahl";
+"welcome_native_mode" = "Nativer Modus";
+"welcome_native_descr" = "Das Menü wird wie eine native Integration in macOS dargestellt. Beim Klick auf das Symbol werden zusätzliche Informationen angezeigt.";
+"welcome_icon_mode" = "Symbol-Modus";
+"welcome_icon_descr" = "Die Anzeige der IP-Adresse und der Bevorzugungsstatus wird ausgeblendet. Die Applikation wird als reines Symbol in der Menüleiste betrieben.";
+"welcome_idontcare" = "Standard verwenden";

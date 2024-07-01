@@ -1,0 +1,50 @@
+// Menu bar
+"ethernet" = "Ethernet";
+"eth_is_connected" = "Connected";
+"eth_not_connected" = "Not connected";
+"eth_preferred" = "Preferred connection";
+"eth_not_preferred" = "Connection is not preferred";
+"no_network_general" = "Network is offline";
+"not_available" = "not available";
+"quit" = "Quit";
+"informations" = "Informations";
+"preferences" = "Preferences";
+"network_prefs" = "Network service settings ...";
+"about" = "About ...";
+"next" = "Next";
+
+// SettingsView
+"general" = "General";
+"appearance" = "Appearance";
+"hotkeys" = "Hotkeys";
+
+// GeneralView
+"startup" = "Startup";
+"behavior" = "App Behavior";
+"menu_bar_symbol" = "Menu Bar Icon";
+"colors" = "Colors";
+"launch_on_start" = "Launch at Startup";
+"only_icon" = "Show only the icon in the menu bar";
+"hide_ip" = "Hide IP in Menu";
+"colorize_status" = "Colorize status in menu";
+
+// Descriptions
+"descr_ip_header" = "IPv4";
+"descr_ip" = "This is the IP address of the current used Ethernet interface. The name of the interface is visible inside the header of the menu.";
+"descr_preferred_header" = "Preferred interface";
+"descr_preferred" = "Shows if the current Ethernet interface is the preferred interface of the system at the moment. Depending on connections, this is not always the case.";
+"descr_standard_mode" = "Shows the menu just as it's a native application. Shows informations like IPv4 address or if the current connection is preferred.";
+"descr_only_icon" = "The indicator for the IP address and preferred state is hidden. The application is run purely as an icon in the menu bar.";
+"descr_colorize_status" = "Colorizes the status in the menu depending on it's current state.";
+
+// WelcomeView
+"welcome_header" = "Welcome to Wired Buddy!";
+"welcome_descr" = "The missing Ethernet icon for your macOS menu bar";
+"welcome_select_buddy" = "Select your menu bar buddy";
+"welcome_buddy_future" = "Don't worry, you can always change your buddy. There will be more to come in the future...";
+"welcome_buddy_decision" = "Your selection";
+"welcome_native_mode" = "Native mode";
+"welcome_native_descr" = "The menu is displayed like a native integration in macOS. Clicking on the icon displays additional information.";
+"welcome_icon_mode" = "Icon mode";
+"welcome_icon_descr" = "The display of the IP address and the preference status is hidden. The application is run purely as an icon in the menu bar.";
+"welcome_idontcare" = "Use default";
