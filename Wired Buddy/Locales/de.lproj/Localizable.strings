@@ -9,8 +9,8 @@
 "quit" = "Beenden";
 "informations" = "Informationen";
 "preferences" = "Einstellungen";
-"network_prefs" = "Netzwerkeinstellungen ...";
-"about" = "Über ...";
+"network_prefs" = "Netzwerkeinstellungen...";
+"about" = "Über...";
 "next" = "Weiter";
 
 // SettingsView
