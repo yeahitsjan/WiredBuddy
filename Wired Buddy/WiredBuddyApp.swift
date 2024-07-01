@@ -11,6 +11,7 @@ struct WiredBuddyApp: App {
     @StateObject var netMon = WBNetworkMonitor()
     @State public var wiredBuddyImage = UserDefaults.standard.integer(forKey: "Buddy")
 
+    @State public var hideDockIcon = UserDefaults.standard.bool(forKey: "HideDockIcon")
     @State public var onlyShowIcon = UserDefaults.standard.bool(forKey: "IconMode")
     @State public var hideIPinMenu = UserDefaults.standard.bool(forKey: "HideIPinMenu")
     @State public var colorStatus = UserDefaults.standard.bool(forKey: "ColorizeStatus")
@@ -19,10 +20,12 @@ struct WiredBuddyApp: App {
         Settings {
             SettingsView(isConnectionActive: $netMon.isWiredConnection,
                             wiredBuddyImage: $wiredBuddyImage,
+                            hideDockIcon: $hideDockIcon,
                             onlyShowIcon: $onlyShowIcon,
                             hideIPinMenu: $hideIPinMenu,
                             colorStatus: $colorStatus)
         }
+        let _ = NSApplication.shared.setActivationPolicy(hideDockIcon ? .accessory : .regular)
         MenuBarExtra("Wired Buddy", systemImage: netMon.isWiredConnection ? buddies[wiredBuddyImage].imageActive : buddies[wiredBuddyImage].imageInactive) {
             ContentView(isMenuPresented: $isMenuPresented, isWiredConnection: $netMon.isWiredConnection, isPreferred: $netMon.isPreferred, interfaceName: $netMon.interfaceName,
                         currentIpAddr: $netMon.ipAddr,

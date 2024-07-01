@@ -6,6 +6,7 @@ struct GeneralView: View {
     @Binding public var isConnectionActive: Bool
     @Binding public var wiredBuddyImage: Int
 
+    @Binding public var hideDockIcon: Bool
     @Binding public var onlyShowIcon: Bool
     @State public var launchOnStart = UserDefaults.standard.bool(forKey: "LaunchOnStart")
     @Binding public var hideIPinMenu: Bool
@@ -23,6 +24,9 @@ struct GeneralView: View {
                     .toggleStyle(.checkbox)
             }
             Text(LocalizedStringKey("descr_only_icon")).font(.footnote).foregroundColor(.secondary).lineLimit(nil).fixedSize(horizontal: false, vertical: true)
+            Toggle(LocalizedStringKey("hide_dock_icon"), isOn: $hideDockIcon)
+                .toggleStyle(.checkbox)
+            Text(LocalizedStringKey("descr_hide_dock_icon")).font(.footnote).foregroundColor(.secondary).lineLimit(nil).fixedSize(horizontal: false, vertical: true)
             Toggle(LocalizedStringKey("hide_ip"), isOn: $hideIPinMenu)
                 .toggleStyle(.checkbox)
                 .disabled(onlyShowIcon ? true : false)
@@ -46,6 +50,9 @@ struct GeneralView: View {
         }.padding()
         .onChange(of: wiredBuddyImage) { newBuddy in
             UserDefaults.standard.set(newBuddy, forKey: "Buddy")
+        }
+        .onChange(of: hideDockIcon) { opt in
+            UserDefaults.standard.set(opt, forKey: "HideDockIcon")
         }
         .onChange(of: onlyShowIcon) { opt in
             UserDefaults.standard.set(opt, forKey: "IconMode")

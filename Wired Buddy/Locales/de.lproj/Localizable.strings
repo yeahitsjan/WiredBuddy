@@ -16,7 +16,7 @@
 // SettingsView
 "general" = "Allgemein";
 "appearance" = "Erscheinungsbild";
-"hotkeys" = "Tastaturkürzel";
+"tips" = "Tipps";
 
 // GeneralView
 "startup" = "Startverhalten";
@@ -24,6 +24,7 @@
 "menu_bar_symbol" = "Menüleistensymbol";
 "colors" = "Farben";
 "launch_on_start" = "Beim Anmelden öffnen";
+"hide_dock_icon" = "Icon im Dock verstecken";
 "only_icon" = "Zeige nur das Symbol in der Menüleiste";
 "hide_ip" = "IP im Menü verstecken";
 "colorize_status" = "Status im Menü farbig hinterlegen";
@@ -34,6 +35,7 @@
 "descr_preferred_header" = "Bevorzugte Verbindung";
 "descr_preferred" = "Zeigt an, ob die aktuelle Ethernet-Schnittstelle die bevorzugte Schnittstelle des Systems ist. Abhängig von den Verbindungen ist dies nicht immer der Fall.";
 "descr_standard_mode" = "Das Menü wird wie eine native Integration in macOS dargestellt. Beim Klick auf das Symbol werden zusätzliche Informationen angezeigt.";
+"descr_hide_dock_icon" = "Versteckt das Icon im Dock während die Anwendung im Hintergrund weiterläuft.";
 "descr_only_icon" = "Die Anzeige der IP-Adresse und der Bevorzugungsstatus wird ausgeblendet. Die Applikation wird als reines Symbol in der Menüleiste betrieben.";
 "descr_colorize_status" = "Hinterlegt den Menüeintrag grün wenn eine Netzwerkverbindung vorhanden ist und rot, wenn keine vorhanden ist.";
 

@@ -19,9 +19,6 @@ struct ContentView: View {
 
     @Environment(\.openURL) var openURL
     @Environment(\.openSettings) var openSettings
-
-    @State private var toggleIpHelp: Bool = false
-    @State private var togglePreferredHelp: Bool = false
     
     var body: some View {
         MacControlCenterMenu(isPresented: $isMenuPresented) {
@@ -45,13 +42,13 @@ struct ContentView: View {
                         MenuToggle(isOn: .constant(isWiredConnection), image: Image(systemName: "externaldrive.connected.to.line.below")) {
                             Text("IPv4: \(currentIpAddr)")
                         } onClick: { _ in
-                            toggleIpHelp.toggle()
+                            // TODO: display tips section in preferences
                         }
                     }
                     MenuToggle(isOn: .constant(isWiredConnection), image: isPreferred ? Image(systemName: "trophy") : Image(systemName: "exclamationmark.triangle")) {
                         Text(isPreferred ? LocalizedStringKey("eth_preferred") : LocalizedStringKey("eth_not_preferred"))
                     } onClick: { _ in
-                        togglePreferredHelp.toggle()
+                        // TODO: display tips section in preferences
                     }
                 }
 
@@ -73,16 +70,6 @@ struct ContentView: View {
             MenuCommand(LocalizedStringKey("quit")) {
                 NSApplication.shared.terminate(nil)
             }
-        }
-        .alert(LocalizedStringKey("descr_ip_header"), isPresented: $toggleIpHelp) {
-            
-        } message: {
-            Text(LocalizedStringKey("descr_ip"))
-        }
-        .alert(LocalizedStringKey("descr_preferred_header"), isPresented: $togglePreferredHelp) {
-            
-        } message: {
-            Text(LocalizedStringKey("descr_preferred"))
         }
     }
 }
