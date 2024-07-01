@@ -4,7 +4,7 @@ A small friendly buddy living on the macOS menu bar, showing the current state o
 
 ![active](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/active.png) ![inactive](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/inactive.png)
 
-### *Installation*
+### *Compiling*
 
 > Compatible with macOS 13 or later due to use of MenuBarExtra
 
@@ -14,7 +14,9 @@ The application is currently not ready for production usage, but works just fine
 $ git clone https://github.com/yeahitsjan/WiredBuddy.git
 ```
 
-Open up ``Wired Buddy.xcodeproj`` in Xcode and hit build!
+Open up ``Wired Buddy.xcodeproj`` in Xcode. Some packages will be fetched so let Xcode finish all its tasks, before you hit build!
+
+If you encounter *signing* issues, you could take a look into [#1 🐛 Self compiling](https://github.com/yeahitsjan/WiredBuddy/issues/1), where there is a pretty good description how to sign the application on your own. Current signing of the project is ``Sign to Run Locally``.
 
 *With a future v1.0 the app will be downloadable via GitHub releases.*
 
