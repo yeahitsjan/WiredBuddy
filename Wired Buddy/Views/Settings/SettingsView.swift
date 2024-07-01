@@ -28,6 +28,10 @@ struct SettingsView: View {
                 .tabItem {
                     Label(LocalizedStringKey("tips"), systemImage: "lightbulb.max")
                 }.tag(1)
+            AboutView()
+                .tabItem {
+                    Label(LocalizedStringKey("about_header"), systemImage: "info.circle")
+                }.tag(2)
         }.frame(width: 450, height: 300)
         .onAppear() {
             for window in NSApplication.shared.windows {

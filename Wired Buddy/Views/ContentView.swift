@@ -64,10 +64,13 @@ struct ContentView: View {
             Divider()
             // Preferences
             MenuCommand(LocalizedStringKey("preferences")) {
+                tabSelection = 0
                 openSettingsView()
             }
             // About
             MenuCommand(LocalizedStringKey("about")) {
+                tabSelection = 2
+                openSettingsView()
             }
             Divider()
             // Quit

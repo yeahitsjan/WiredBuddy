@@ -29,6 +29,13 @@
 "hide_ip" = "Hide IP in Menu";
 "colorize_status" = "Colorize status in menu";
 
+// AboutView
+"about_header" = "About";
+"copyright_note" = "Copyright © 2024 Jan Kowalewicz. Licensed under the MIT License.";
+"about_sponsor" = "[❤️ Donate](https://paypal.me/kkaj59)";
+"about_oss" = "[🚀 Used OSS](https://github.com/yeahitsjan/WiredBuddy#License)";
+"about_viewsource" = "[👀 Sourcecode](https://github.com/yeahitsjan/WiredBuddy)";
+
 // Descriptions
 "descr_ip_header" = "IPv4";
 "descr_ip" = "The IP address as IPv4 of the current used Ethernet interface. The name of the interface is visible inside the header of the menu. You can manually disable showing it using the settings.";

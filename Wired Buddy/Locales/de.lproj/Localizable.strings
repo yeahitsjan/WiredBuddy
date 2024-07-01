@@ -29,6 +29,13 @@
 "hide_ip" = "IP im Menü verstecken";
 "colorize_status" = "Status im Menü farbig hinterlegen";
 
+// AboutView
+"about_header" = "Über";
+"copyright_note" = "Copyright © 2024 Jan Kowalewicz. Lizenziert unter der MIT-Lizenz.";
+"about_sponsor" = "[❤️ Spenden](https://paypal.me/kkaj59)";
+"about_oss" = "[🚀 Benutzte Open-Source-Bibliotheken](https://github.com/yeahitsjan/WiredBuddy#License)";
+"about_viewsource" = "[👀 Quellcode](https://github.com/yeahitsjan/WiredBuddy)";
+
 // Descriptions
 "descr_ip_header" = "IPv4";
 "descr_ip" = "Die IPv4-Adresse des aktuell genutzten Ethernet-Interfaces wird im Menü angezeigt. Der Name des Interfaces ist oben rechts grau hinterlegt. Wenn gewünscht, kann man die IP-Adresse auch in den Einstellungen ausblenden.";
