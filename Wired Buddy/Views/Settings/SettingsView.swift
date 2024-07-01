@@ -22,7 +22,7 @@ struct SettingsView: View {
                 .tabItem {
                     Label(LocalizedStringKey("general"), systemImage: "gearshape")
                 }
-            Text("dummy")
+            TipsView(isConnectionActive: $isConnectionActive)
                 .tabItem {
                     Label(LocalizedStringKey("tips"), systemImage: "lightbulb.max")
                 }

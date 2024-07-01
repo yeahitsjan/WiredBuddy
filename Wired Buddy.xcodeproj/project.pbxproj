@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3259792C32F39C005173A3 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3259782C32F39C005173A3 /* TipsView.swift */; };
 		3D4624BB2BC0B5080047F0F4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4624BA2BC0B5080047F0F4 /* SettingsView.swift */; };
 		3D4624BF2BC0B8610047F0F4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4624BD2BC0B8610047F0F4 /* Localizable.strings */; };
 		3D4624C32BC0BA970047F0F4 /* Buddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4624C22BC0BA970047F0F4 /* Buddy.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3259782C32F39C005173A3 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		3D4624BA2BC0B5080047F0F4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3D4624BE2BC0B8610047F0F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3D4624C02BC0B8710047F0F4 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				3DE79B3E2BC49D420076C55A /* GeneralView.swift */,
 				3D4624BA2BC0B5080047F0F4 /* SettingsView.swift */,
+				3D3259782C32F39C005173A3 /* TipsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				3DAC90222BC00B4A0078AD69 /* ContentView.swift in Sources */,
 				3D4624C32BC0BA970047F0F4 /* Buddy.swift in Sources */,
 				3DE79B3F2BC49D420076C55A /* GeneralView.swift in Sources */,
+				3D3259792C32F39C005173A3 /* TipsView.swift in Sources */,
 				3DF06D632BC5D79100550FF5 /* NetMon.swift in Sources */,
 				3DAC90202BC00B4A0078AD69 /* WiredBuddyApp.swift in Sources */,
 			);
