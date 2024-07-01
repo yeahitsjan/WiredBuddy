@@ -1,6 +1,6 @@
 ## Wired Buddy :ghost:
 
-A small, friendly buddy living on the macOS menu bar, showing the current state of an active ethernet interface.
+A small friendly buddy living on the macOS menu bar, showing the current state of an active ethernet interface.
 
 ![active](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/active.png) ![inactive](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/inactive.png)
 
@@ -20,7 +20,7 @@ Open up ``Wired Buddy.xcodeproj`` in Xcode and hit build!
 
 ### Roadmap
 
-Wired Buddy's main features (displaying the active state of an ethernet connection) are already functionality. Still there is something to do before releasing a stable v1.0:
+Wired Buddy's main features (displaying the active state of an ethernet connection) are already fully functional (*bugs inside™*). Still there is something to do before releasing a stable v1.0:
 
 - [ ] a proper AppIcon (there is currently none)
 - [ ] the AppIcon as a buddy itself
