@@ -1,6 +1,7 @@
 // Copyright (c) 2024 Jan Kowalewicz <jan@nitroosit.de>. Licensed under the MIT License.
 
 import SwiftUI
+import LaunchAtLogin
 
 struct GeneralView: View {
     @Binding public var isConnectionActive: Bool
@@ -15,8 +16,9 @@ struct GeneralView: View {
     var body: some View {
         Form {
             LabeledContent(LocalizedStringKey("startup")) {
-                Toggle(LocalizedStringKey("launch_on_start"), isOn: $launchOnStart)
-                    .toggleStyle(.checkbox)
+                LaunchAtLogin.Toggle {
+                    Text(LocalizedStringKey("launch_on_start"))
+                }
             }
             Divider()
             LabeledContent(LocalizedStringKey("behavior")) {

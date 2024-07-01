@@ -7,7 +7,7 @@
 "no_network_general" = "Network is offline";
 "not_available" = "not available";
 "quit" = "Quit";
-"informations" = "Informations";
+"informations" = "Information";
 "preferences" = "Preferences";
 "network_prefs" = "Network service settings...";
 "about" = "About...";
