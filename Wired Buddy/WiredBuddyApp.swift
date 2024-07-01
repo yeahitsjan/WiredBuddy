@@ -24,7 +24,7 @@ struct WiredBuddyApp: App {
                             onlyShowIcon: $onlyShowIcon,
                             hideIPinMenu: $hideIPinMenu,
                             colorStatus: $colorStatus)
-        }
+        }.commandsRemoved()
         let _ = NSApplication.shared.setActivationPolicy(hideDockIcon ? .accessory : .regular)
         MenuBarExtra("Wired Buddy", systemImage: netMon.isWiredConnection ? buddies[wiredBuddyImage].imageActive : buddies[wiredBuddyImage].imageInactive) {
             ContentView(isMenuPresented: $isMenuPresented, isWiredConnection: $netMon.isWiredConnection, isPreferred: $netMon.isPreferred, interfaceName: $netMon.interfaceName,

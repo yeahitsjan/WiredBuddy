@@ -26,9 +26,9 @@ Wired Buddy's main features (displaying the active state of an ethernet connecti
 
 - [ ] a proper AppIcon (there is currently none)
 - [ ] the AppIcon as a buddy itself
-- [ ] Hide the AppIcon whilst running the app as well as the menubar
+- [x] Hide the AppIcon whilst running the app as well as the menubar
 - [ ] Welcome screen on first launch
-- [ ] Shortcuts / Hotkeys (if any)
+- [ ] Show tips when clicking on informational buttons
 
 ### License
 
