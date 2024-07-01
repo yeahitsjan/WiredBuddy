@@ -9,7 +9,6 @@ struct GeneralView: View {
 
     @Binding public var hideDockIcon: Bool
     @Binding public var onlyShowIcon: Bool
-    @State public var launchOnStart = UserDefaults.standard.bool(forKey: "LaunchOnStart")
     @Binding public var hideIPinMenu: Bool
     @Binding public var colorStatus: Bool
 

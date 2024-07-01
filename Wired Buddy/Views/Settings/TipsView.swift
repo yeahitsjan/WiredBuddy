@@ -6,12 +6,15 @@ struct TipsView: View {
     @Binding public var isConnectionActive: Bool
     var body: some View {
         VStack(alignment: .leading) {
-            Label(LocalizedStringKey("header_ip_information"), systemImage: "network").bold()
-            Text(LocalizedStringKey("descr_ip_information")).font(.footnote)
-            Spacer()
+            VStack(alignment: .leading) {
+                Label(LocalizedStringKey("descr_ip_header"), systemImage: "network").bold()
+                Text(LocalizedStringKey("descr_ip")).font(.footnote)
+            }.padding()
             Divider()
-            Label(LocalizedStringKey("header_prefcon_information"), systemImage: "trophy").bold()
-            Text(LocalizedStringKey("descr_prefcon_information")).font(.footnote)
+            VStack(alignment: .leading) {
+                Label(LocalizedStringKey("descr_preferred_header"), systemImage: "trophy").bold()
+                Text(LocalizedStringKey("descr_preferred")).font(.footnote)
+            }.padding()
             Spacer()
         }.padding()
     }

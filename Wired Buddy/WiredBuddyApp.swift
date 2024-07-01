@@ -15,6 +15,9 @@ struct WiredBuddyApp: App {
     @State public var onlyShowIcon = UserDefaults.standard.bool(forKey: "IconMode")
     @State public var hideIPinMenu = UserDefaults.standard.bool(forKey: "HideIPinMenu")
     @State public var colorStatus = UserDefaults.standard.bool(forKey: "ColorizeStatus")
+
+    // Selection index between tabs inside the SettingsView
+    @State public var tabSelection = 0
     
     var body: some Scene {
         Settings {
@@ -23,7 +26,8 @@ struct WiredBuddyApp: App {
                             hideDockIcon: $hideDockIcon,
                             onlyShowIcon: $onlyShowIcon,
                             hideIPinMenu: $hideIPinMenu,
-                            colorStatus: $colorStatus)
+                            colorStatus: $colorStatus,
+                            tabSelection: $tabSelection)
         }.commandsRemoved()
         let _ = NSApplication.shared.setActivationPolicy(hideDockIcon ? .accessory : .regular)
         MenuBarExtra("Wired Buddy", systemImage: netMon.isWiredConnection ? buddies[wiredBuddyImage].imageActive : buddies[wiredBuddyImage].imageInactive) {
@@ -31,7 +35,8 @@ struct WiredBuddyApp: App {
                         currentIpAddr: $netMon.ipAddr,
                         onlyShowIcon: $onlyShowIcon,
                         hideIPinMenu: $hideIPinMenu,
-                        colorStatus: $colorStatus)
+                        colorStatus: $colorStatus,
+                        tabSelection: $tabSelection)
                 .openSettingsAccess()
         }.menuBarExtraStyle(.window).menuBarExtraAccess(isPresented: $isMenuPresented)
     }

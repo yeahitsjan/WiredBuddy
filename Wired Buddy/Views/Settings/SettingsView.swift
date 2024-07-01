@@ -10,9 +10,11 @@ struct SettingsView: View {
     @Binding public var onlyShowIcon: Bool
     @Binding public var hideIPinMenu: Bool
     @Binding public var colorStatus: Bool
+
+    @Binding public var tabSelection: Int
     
     var body: some View {
-        TabView {
+        TabView(selection: $tabSelection) {
             GeneralView(isConnectionActive: $isConnectionActive,
                         wiredBuddyImage: $wiredBuddyImage,
                         hideDockIcon: $hideDockIcon,
@@ -21,11 +23,11 @@ struct SettingsView: View {
                         colorStatus: $colorStatus)
                 .tabItem {
                     Label(LocalizedStringKey("general"), systemImage: "gearshape")
-                }
+                }.tag(0)
             TipsView(isConnectionActive: $isConnectionActive)
                 .tabItem {
                     Label(LocalizedStringKey("tips"), systemImage: "lightbulb.max")
-                }
+                }.tag(1)
         }.frame(width: 450, height: 300)
         .onAppear() {
             for window in NSApplication.shared.windows {

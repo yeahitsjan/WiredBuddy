@@ -17,6 +17,8 @@ struct ContentView: View {
     @Binding public var hideIPinMenu: Bool
     @Binding public var colorStatus: Bool
 
+    @Binding public var tabSelection: Int
+
     @Environment(\.openURL) var openURL
     @Environment(\.openSettings) var openSettings
     
@@ -42,13 +44,15 @@ struct ContentView: View {
                         MenuToggle(isOn: .constant(isWiredConnection), image: Image(systemName: "externaldrive.connected.to.line.below")) {
                             Text("IPv4: \(currentIpAddr)")
                         } onClick: { _ in
-                            // TODO: display tips section in preferences
+                            tabSelection = 1
+                            openSettingsView()
                         }
                     }
                     MenuToggle(isOn: .constant(isWiredConnection), image: isPreferred ? Image(systemName: "trophy") : Image(systemName: "exclamationmark.triangle")) {
                         Text(isPreferred ? LocalizedStringKey("eth_preferred") : LocalizedStringKey("eth_not_preferred"))
                     } onClick: { _ in
-                        // TODO: display tips section in preferences
+                        tabSelection = 1
+                        openSettingsView()
                     }
                 }
 
@@ -60,7 +64,7 @@ struct ContentView: View {
             Divider()
             // Preferences
             MenuCommand(LocalizedStringKey("preferences")) {
-                try? openSettings()
+                openSettingsView()
             }
             // About
             MenuCommand(LocalizedStringKey("about")) {
@@ -71,5 +75,9 @@ struct ContentView: View {
                 NSApplication.shared.terminate(nil)
             }
         }
+    }
+
+    private func openSettingsView() {
+        try? openSettings()
     }
 }

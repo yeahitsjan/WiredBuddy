@@ -31,22 +31,10 @@
 
 // Descriptions
 "descr_ip_header" = "IPv4";
-"descr_ip" = "This is the IP address of the current used Ethernet interface. The name of the interface is visible inside the header of the menu.";
+"descr_ip" = "The IP address as IPv4 of the current used Ethernet interface. The name of the interface is visible inside the header of the menu. You can manually disable showing it using the settings.";
 "descr_preferred_header" = "Preferred interface";
-"descr_preferred" = "Shows if the current Ethernet interface is the preferred interface of the system at the moment. Depending on connections, this is not always the case.";
+"descr_preferred" = "Shows if the current Ethernet interface is the preferred interface of the system at the moment. Depending on connections, this is not always the case. You could have multiple open interfaces. macOS prefers them based on their order.";
 "descr_standard_mode" = "Shows the menu just as it's a native application. Shows informations like IPv4 address or if the current connection is preferred.";
 "descr_hide_dock_icon" = "Hides the dock icon when the application is running.";
 "descr_only_icon" = "The indicator for the IP address and preferred state is hidden. The application is run purely as an icon in the menu bar.";
 "descr_colorize_status" = "Colorizes the status in the menu depending on it's current state.";
-
-// WelcomeView
-"welcome_header" = "Welcome to Wired Buddy!";
-"welcome_descr" = "The missing Ethernet icon for your macOS menu bar";
-"welcome_select_buddy" = "Select your menu bar buddy";
-"welcome_buddy_future" = "Don't worry, you can always change your buddy. There will be more to come in the future...";
-"welcome_buddy_decision" = "Your selection";
-"welcome_native_mode" = "Native mode";
-"welcome_native_descr" = "The menu is displayed like a native integration in macOS. Clicking on the icon displays additional information.";
-"welcome_icon_mode" = "Icon mode";
-"welcome_icon_descr" = "The display of the IP address and the preference status is hidden. The application is run purely as an icon in the menu bar.";
-"welcome_idontcare" = "Use default";
