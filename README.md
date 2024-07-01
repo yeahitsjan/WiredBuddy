@@ -6,7 +6,7 @@ A small friendly buddy living on the macOS menu bar, showing the current state o
 
 ### *Compiling*
 
-> Compatible with macOS 13 or later due to use of MenuBarExtra
+> Compatible with macOS 13 or later due to use of MenuBarExtra and LaunchAtLogin-Modern
 
 The application is currently not ready for production usage, but works just fine feature-wise. To see if you can help extend the functionality and bring Wired Buddy to a v1.0, see Roadmap below.
 
@@ -16,9 +16,9 @@ $ git clone https://github.com/yeahitsjan/WiredBuddy.git
 
 Open up ``Wired Buddy.xcodeproj`` in Xcode. Some packages will be fetched so let Xcode finish all its tasks, before you hit build!
 
-If you encounter *signing* issues, you could take a look into [#1 🐛 Self compiling](https://github.com/yeahitsjan/WiredBuddy/issues/1), where there is a pretty good description how to sign the application on your own. Current signing of the project is ``Sign to Run Locally``.
+If you encounter *signing* issues, you could take a look into [🐛 Self compiling](https://github.com/yeahitsjan/WiredBuddy/issues/1), where there is a pretty good description how to sign the application on your own.
 
-*With a future v1.0 the app will be downloadable via GitHub releases.*
+*With a future v0.1 the app will be downloadable via GitHub releases.*
 
 ### Roadmap
 
@@ -28,11 +28,11 @@ Wired Buddy's main features (displaying the active state of an ethernet connecti
 - [ ] the AppIcon as a buddy itself
 - [x] Hide the AppIcon whilst running the app as well as the menubar
 - [ ] Welcome screen on first launch
-- [ ] Show tips when clicking on informational buttons
+- [x] Show tips when clicking on informational buttons
 
 ### License
 
-Wired Buddy itself uses [MacControlCenterUI](https://github.com/orchetect/MacControlCenterUI), [MenuBarExtraAccess](https://github.com/orchetect/MenuBarExtraAccess) and [SettingsAccess](https://github.com/orchetect/SettingsAccess) to achieve its native-like look n' feel. Visit these awesome repositories for more informations on their licenses :heart:
+Wired Buddy itself uses [MacControlCenterUI](https://github.com/orchetect/MacControlCenterUI), [MenuBarExtraAccess](https://github.com/orchetect/MenuBarExtraAccess), [SettingsAccess](https://github.com/orchetect/SettingsAccess) and [LaunchAtLogin-Modern](https://github.com/sindresorhus/LaunchAtLogin-Modern) to achieve its native-like look n' feel. Visit these awesome repositories for more informations on their licenses :heart:
 
 Wired Buddy is licensed under the MIT license.
 
