@@ -6,9 +6,9 @@ struct AboutView: View {
     let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
 
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
             Spacer()
-            Image(systemName: "AppIcon").padding() // placeholder
+            Image("appicon128")
             HStack {
                 Text("Wired Buddy").bold()
                 Text("\(version)").font(.footnote).foregroundColor(.secondary)
