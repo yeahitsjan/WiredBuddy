@@ -9,7 +9,7 @@
 
 A small friendly buddy living on the macOS menu bar, showing the current state of an active ethernet interface.
 
-![active](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/active.png) ![inactive](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/inactive.png)
+![active](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/active.jpg) ![inactive](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/inactive.jpg)
 
 ## Installation
 
