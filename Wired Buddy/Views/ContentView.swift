@@ -59,7 +59,8 @@ struct ContentView: View {
                 Divider()
             }
             MenuCommand(LocalizedStringKey("network_prefs")) {
-                openURL(URL(string: "x-apple.systempreferences:com.apple.preference.network")!)
+                // com.apple.preference.network
+                openURL(URL(string: "x-apple.systempreferences:com.apple.Network-Settings.extension")!)
             }
             Divider()
             // Preferences
