@@ -1,14 +1,27 @@
-## Wired Buddy :ghost:
+<p align="center">
+  <a href="#">
+    <img height="128" width="128" src="https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/Resources/1024x1024px_hintergrund-128.png">
+  </a>
+  <h1 align="center">Wired Buddy</i></h1>
+</p>
+
+![macOS](https://img.shields.io/badge/macOS-13.0+-lightgray?style=flat-square) ![license](https://img.shields.io/github/license/yeahitsjan/WiredBuddy.svg?style=flat-square) ![downloads](https://img.shields.io/github/downloads/yeahitsjan/WiredBuddy/total.svg?style=flat-square)
 
 A small friendly buddy living on the macOS menu bar, showing the current state of an active ethernet interface.
 
 ![active](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/active.png) ![inactive](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/inactive.png)
 
-### *Compiling*
+## Installation
 
 > Compatible with macOS 13 or later due to use of MenuBarExtra and LaunchAtLogin-Modern
 
-The application is currently not ready for production usage, but works just fine feature-wise. To see if you can help extend the functionality and bring Wired Buddy to a v1.0, see Roadmap below.
+You can grab the latest version from the [releases page](https://github.com/yeahitsjan/WiredBuddy/releases). Unzip it and copy it to the *Applications* folder. Have fun! :relaxed:
+
+**Due to development signing, you probably need to run the application again from settings, allowing its execution.**
+
+*There will a brew cask in the near future, stay tuned!*
+
+## Compiling
 
 ```sh
 $ git clone https://github.com/yeahitsjan/WiredBuddy.git
@@ -18,19 +31,15 @@ Open up ``Wired Buddy.xcodeproj`` in Xcode. Some packages will be fetched so let
 
 If you encounter *signing* issues, you could take a look into [🐛 Self compiling](https://github.com/yeahitsjan/WiredBuddy/issues/1), where there is a pretty good description how to sign the application on your own.
 
-*With a future v0.1 the app will be downloadable via GitHub releases.*
-
-### Roadmap
+## Roadmap
 
 Wired Buddy's main features (displaying the active state of an ethernet connection) are already fully functional (*bugs inside™*). Still there is something to do before releasing a stable v1.0:
 
-- [ ] a proper AppIcon (there is currently none)
 - [ ] the AppIcon as a buddy itself
-- [x] Hide the AppIcon whilst running the app as well as the menubar
 - [ ] Welcome screen on first launch
-- [x] Show tips when clicking on informational buttons
+- [ ] Localization!
 
-### License
+## License
 
 Wired Buddy itself uses [MacControlCenterUI](https://github.com/orchetect/MacControlCenterUI), [MenuBarExtraAccess](https://github.com/orchetect/MenuBarExtraAccess), [SettingsAccess](https://github.com/orchetect/SettingsAccess) and [LaunchAtLogin-Modern](https://github.com/sindresorhus/LaunchAtLogin-Modern) to achieve its native-like look n' feel. Visit these awesome repositories for more informations on their licenses :heart:
 
