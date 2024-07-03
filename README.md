@@ -5,7 +5,7 @@
   <h1 align="center">Wired Buddy</i></h1>
 </p>
 
-![macOS](https://img.shields.io/badge/macOS-13.0+-lightgray?style=flat-square) ![license](https://img.shields.io/github/license/yeahitsjan/WiredBuddy.svg?style=flat-square) ![downloads](https://img.shields.io/github/downloads/yeahitsjan/WiredBuddy/total.svg?style=flat-square)
+![macOS](https://img.shields.io/badge/macOS-13.0+-lightgray?style=flat-square) ![lang](https://img.shields.io/badge/lang-swift+swiftui-orange?style=flat-square) ![license](https://img.shields.io/github/license/yeahitsjan/WiredBuddy.svg?style=flat-square) ![downloads](https://img.shields.io/github/downloads/yeahitsjan/WiredBuddy/total.svg?style=flat-square)
 
 A small friendly buddy living on the macOS menu bar, showing the current state of an active ethernet interface.
 
