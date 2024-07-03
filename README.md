@@ -17,7 +17,7 @@ A small friendly buddy living on the macOS menu bar, showing the current state o
 
 You can grab the latest version from the [releases page](https://github.com/yeahitsjan/WiredBuddy/releases). Unzip it and copy it to the *Applications* folder. Have fun! :relaxed:
 
-**Due to development signing, you probably need to run the application again from settings, allowing its execution.**
+**Due to local signing, you probably need to run the application again from settings, allowing its execution. In [#3](https://github.com/yeahitsjan/WiredBuddy/issues/3#issuecomment-2204579319) and [#4](https://github.com/yeahitsjan/WiredBuddy/issues/4#issuecomment-2205345477) you can see how this probably looks. The reason for this is described in [this comment](https://github.com/yeahitsjan/WiredBuddy/issues/3#issuecomment-2206266133).**
 
 *There will a brew cask in the near future, stay tuned!*
 
