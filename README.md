@@ -11,7 +11,7 @@ A small friendly buddy living on the macOS menu bar, showing the current state o
 
 ![active](https://raw.githubusercontent.com/yeahitsjan/WiredBuddy/develop/.github/active.jpeg)
 
-## Installation
+## :rocket: Installation
 
 > Compatible with macOS 13 or later due to use of MenuBarExtra and LaunchAtLogin-Modern
 
@@ -21,7 +21,7 @@ You can grab the latest version from the [releases page](https://github.com/yeah
 
 *There will a brew cask in the near future, stay tuned!*
 
-## Compiling
+## :hammer: Compiling
 
 ```sh
 $ git clone https://github.com/yeahitsjan/WiredBuddy.git
@@ -31,13 +31,19 @@ Open up ``Wired Buddy.xcodeproj`` in Xcode. Some packages will be fetched so let
 
 If you encounter *signing* issues, you could take a look into [🐛 Self compiling](https://github.com/yeahitsjan/WiredBuddy/issues/1), where there is a pretty good description how to sign the application on your own.
 
-## Roadmap
+## :airplane: Roadmap
 
 Wired Buddy's main features (displaying the active state of an ethernet connection) are already fully functional (*bugs inside™*). Still there is something to do before releasing a stable v1.0:
 
 - [ ] the AppIcon as a buddy itself
 - [ ] Welcome screen on first launch
 - [ ] Localization!
+
+If you want to support localizing the app, take a look into the [en.lproj](https://github.com/yeahitsjan/WiredBuddy/blob/develop/Wired%20Buddy/Locales/en.lproj/Localizable.strings), copy its contents. Translate the strings on the right side into your language and open up an [issue](https://github.com/yeahitsjan/WiredBuddy/issues) with an attached text file of your translated strings. You will surely be mentioned in the AboutView of Wired Buddy! :relaxed:
+
+## :heart: Show some love!
+
+You love Wired Buddy? Want to say thank you or just donate something to it's development? You can [tip me](https://paypal.me/kkaj59) something, if you want to and get your name into the app :relaxed:
 
 ## License
 
