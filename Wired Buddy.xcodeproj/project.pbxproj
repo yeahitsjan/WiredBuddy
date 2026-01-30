@@ -15,6 +15,7 @@
 		3D4624C32BC0BA970047F0F4 /* Buddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4624C22BC0BA970047F0F4 /* Buddy.swift */; };
 		3D624F872BC68E8B003628D0 /* MacControlCenterUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D624F862BC68E8B003628D0 /* MacControlCenterUI */; };
 		3D624F8A2BC69115003628D0 /* SettingsAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 3D624F892BC69115003628D0 /* SettingsAccess */; };
+		3D996A172F2D35DC00A2DD1F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D996A162F2D35D600A2DD1F /* WelcomeView.swift */; };
 		3DAC90202BC00B4A0078AD69 /* WiredBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC901F2BC00B4A0078AD69 /* WiredBuddyApp.swift */; };
 		3DAC90222BC00B4A0078AD69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC90212BC00B4A0078AD69 /* ContentView.swift */; };
 		3DAC90242BC00B4A0078AD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC90232BC00B4A0078AD69 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		3D4624BE2BC0B8610047F0F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3D4624C02BC0B8710047F0F4 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3D4624C22BC0BA970047F0F4 /* Buddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddy.swift; sourceTree = "<group>"; };
+		3D996A162F2D35D600A2DD1F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3DAC901C2BC00B4A0078AD69 /* Wired Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wired Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAC901F2BC00B4A0078AD69 /* WiredBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiredBuddyApp.swift; sourceTree = "<group>"; };
 		3DAC90212BC00B4A0078AD69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		3D4624B92BC0B4FA0047F0F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3D996A162F2D35D600A2DD1F /* WelcomeView.swift */,
 				3D4624C62BC0BDD30047F0F4 /* Settings */,
 				3DAC90212BC00B4A0078AD69 /* ContentView.swift */,
 			);
@@ -223,6 +226,7 @@
 				3D4624BB2BC0B5080047F0F4 /* SettingsView.swift in Sources */,
 				3DAC90222BC00B4A0078AD69 /* ContentView.swift in Sources */,
 				3D4624C32BC0BA970047F0F4 /* Buddy.swift in Sources */,
+				3D996A172F2D35DC00A2DD1F /* WelcomeView.swift in Sources */,
 				3DE79B3F2BC49D420076C55A /* GeneralView.swift in Sources */,
 				3D3259792C32F39C005173A3 /* TipsView.swift in Sources */,
 				3DF06D632BC5D79100550FF5 /* NetMon.swift in Sources */,

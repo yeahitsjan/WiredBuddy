@@ -13,6 +13,10 @@
 "about" = "Über...";
 "next" = "Weiter";
 
+// WelcomeView
+"welcome_header" = "Danke das Du Wired Buddy benutzt!";
+"welcome_description" = "Du kannst dieses Fenster nun schließen. WiredBuddy läuft im Hintergrund weiter.";
+
 // SettingsView
 "general" = "Allgemein";
 "appearance" = "Erscheinungsbild";

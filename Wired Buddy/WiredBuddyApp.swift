@@ -20,6 +20,9 @@ struct WiredBuddyApp: App {
     @State public var tabSelection = 0
     
     var body: some Scene {
+        WindowGroup {
+            WelcomeView().frame(width: 285, height: 300)
+        }.commandsRemoved().windowStyle(.hiddenTitleBar).windowResizability(.contentSize)
         Settings {
             SettingsView(isConnectionActive: $netMon.isWiredConnection,
                             wiredBuddyImage: $wiredBuddyImage,
