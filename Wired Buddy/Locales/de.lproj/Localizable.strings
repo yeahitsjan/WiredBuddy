@@ -31,7 +31,7 @@
 
 // AboutView
 "about_header" = "Über";
-"copyright_note" = "Copyright © 2024 Jan Kowalewicz. Lizenziert unter der MIT-Lizenz.";
+"copyright_note" = "Copyright © 2024-2026 Jan Strumpen. Lizenziert unter der MIT-Lizenz.";
 "about_sponsor" = "[❤️ Spenden](https://paypal.me/kkaj59)";
 "about_oss" = "[🚀 Benutzte Open-Source-Bibliotheken](https://github.com/yeahitsjan/WiredBuddy#License)";
 "about_viewsource" = "[👀 Quellcode](https://github.com/yeahitsjan/WiredBuddy)";
